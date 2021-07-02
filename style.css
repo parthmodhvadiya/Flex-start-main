@@ -1144,3 +1144,109 @@
   transition: all 0.5s ease;
   position: relative;
 }
+
+ .portfolio-content{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: rgb(245, 245, 245, 0.75);
+  opacity: 0;
+  transition: all 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  right: 0px;
+  bottom: 0px;
+}
+
+.gallery_product:hover img {
+  transform: scale(1.1);
+}
+
+.gallery_product:hover .portfolio-lines-1{
+  display: block;
+  width: 48px;
+  height: 48px;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  border-top: 3px solid rgba(1, 41, 112, 0.2);
+  border-left: 3px solid rgba(1, 41, 112, 0.2);
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+
+.gallery_product:hover .portfolio-content {
+  opacity: 1;
+}
+
+.gallery_product:hover .portfolio-lines-2{
+  display: block;
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  border-bottom: 3px solid rgba(1, 41, 112, 0.2);
+  border-right: 3px solid rgba(1, 41, 112, 0.2);
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+
+.portfolio-content h4 {
+  font-size: 20px;
+  color: #012970;
+  font-weight: 700;
+  align-self: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.portfolio-content p {
+  font-size: 14px;
+  color: #012970;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Opan sans", sans-serif;
+}
+
+.portfolio-links {
+  display: inline-block;
+}
+
+.portfolio-links a {
+  margin: 10px 2px;
+  font-size: 24px;
+  color: #fff;
+  padding: 2px 5px;
+  background: #4154f1;
+  border-radius: 20px;
+}
+
+.mfp-zoom-in .mfp-with-anim {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transform: scale(0.8);
+}
+.mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  background: black;
+  transition: all 0.3s ease-out;
+}
+.mfp-zoom-in.mfp-ready .mfp-with-anim {
+  opacity: 1;
+  transform: scale(1);
+}
+.mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+.mfp-zoom-in.mfp-removing .mfp-with-anim {
+  transform: scale(0.8);
+  opacity: 0;
+}
+.mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}

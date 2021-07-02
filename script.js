@@ -25,6 +25,18 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function (){
+   $('.main-img').magnificPopup({
+     type:'image',
+     
+     midClick: true,
+     mainClass: "mfp-zoom-in",
+     gallery :{
+       enabled : true,
+     }
+   });
+});
+
 $(function () {
   $(document).scroll(function () {
     var $nav = $(".sticky-top");
@@ -34,7 +46,7 @@ $(function () {
 $(".open-popup-link").magnificPopup({
   type: "inline",
   midClick: true,
-  mainClass: "mfp-fade",
+  mainClass: "mfp-fade-in",
 });
 $(document).ready(function () {
   /* Check width on page load*/
