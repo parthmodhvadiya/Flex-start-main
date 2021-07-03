@@ -1,11 +1,15 @@
 $(document).ready(function(){  
   $('#default-demo').slickLightbox({
     itemSelector: '.main-img',
-    background: 'rgba(0, 0, 0, .7)'
+    background: 'rgba(0, 0, 0, .7)',    
+    arrows: true,
+    caption: 'caption',
+    next: '<i class="bi bi-chevron-left"></i>'
   });
 });
 
-$(document).ready(function () {
+$(document).ready(function () 
+{
   $(".filter-button").click(function () {
     var value = $(this).attr("data-filter");
 

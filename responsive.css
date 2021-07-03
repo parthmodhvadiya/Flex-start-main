@@ -190,17 +190,29 @@
   }
 
   #pricing {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .pricing-content {
     width: 92%;
     margin: 0px auto;
   }
-
+#faq{
+  overflow: hidden;
+}
   #faqlist-1,
   #faqlist-2 {
     width: 95%;
     margin: 0px auto;
+  }
+  #portfolio{
+    overflow: hidden;
+  }
+  #default-demo{
+    margin: 0px auto ;
+  }
+  .gallery_product{
+    
+    overflow: hidden !important;
   }
 }
