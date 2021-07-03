@@ -1,3 +1,10 @@
+$(document).ready(function(){  
+  $('#default-demo').slickLightbox({
+    itemSelector: '.main-img',
+    background: 'rgba(0, 0, 0, .7)'
+  });
+});
+
 $(document).ready(function () {
   $(".filter-button").click(function () {
     var value = $(this).attr("data-filter");
@@ -17,6 +24,9 @@ $(document).ready(function () {
     }
   });
 
+
+ 
+
   $(document).ready(function () {
     $(".filter-button").click(function () {
       $(".filter-button").removeClass("active");
@@ -25,24 +35,17 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function (){
-   $('.main-img').magnificPopup({
-     type:'image',
-     
-     midClick: true,
-     mainClass: "mfp-zoom-in",
-     gallery :{
-       enabled : true,
-     }
-   });
-});
-
 $(function () {
   $(document).scroll(function () {
     var $nav = $(".sticky-top");
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });
+
+
+
+
+
 $(".open-popup-link").magnificPopup({
   type: "inline",
   midClick: true,
@@ -68,9 +71,11 @@ AOS.init({
   offset: 400,
   duration: 1000,
 });
+
 $(".counter").counterUp({
   delay: 10,
   mirror: false,
   easing: "ease-in-out",
   time: 1000,
-});
+})
+;
