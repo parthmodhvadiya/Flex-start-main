@@ -697,7 +697,8 @@
 .service-header,
 .pricing-header,
 .faq-header,
-#portfolio header {
+#portfolio header,
+.test-header {
   text-align: center;
   padding-bottom: 40px;
 }
@@ -705,7 +706,8 @@
 .service-header h2,
 .pricing-header h2,
 .faq-header h2,
-#portfolio header h2 {
+#portfolio header h2,
+.test-header h2 {
   font-size: 13px;
   font-family: "Nunito", sans-serif;
   color: #4154f1;
@@ -716,7 +718,8 @@
 .service-header p,
 .pricing-header p,
 .faq-header p,
-#portfolio header p {
+#portfolio header p,
+.test-header p {
   font-size: 38px;
   font-family: "Opan sans", sans-serif;
   color: #012970;
@@ -1249,4 +1252,113 @@
 }
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
+}
+
+/* test */
+
+.test{
+  padding: 60px 0px;
+  overflow: hidden !important;
+}
+
+.slider{
+  height: auto;
+  width: 100%;
+}
+
+.item{
+  margin: 40px 30px;
+  box-shadow: 0px 0 20px rgb(1 41 112 / 10%);
+  padding: 30px;
+  width: 100%;
+  align-items: center;
+  transition: all 0.3s ease;
+  justify-content: center;
+  text-align: center;
+}
+
+.stars{
+   margin: 0px 0px 15px;
+   font-size: 16px;
+}
+
+.stars i{
+  color: #ffc107;
+}
+
+.item p{
+  font-size: 16px;
+  font-family: "Opan sans",sans-serif;
+  font-style: italic;
+  margin: 0px auto 15px auto;
+  line-height: 1.5;
+  color: #444444;
+  font-weight: 400;
+}
+
+
+.slick-slide{
+  opacity: .4;
+}
+.slick-center{
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
+  transform: scale(1.12);
+  opacity: 1;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile img{
+  max-height: 90px;
+  max-width: 90px;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.profile h3{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Nunito",sans-serif;
+  margin: 10px 0px 5px;
+  color: #111111;
+}
+
+.profile h4{
+  font-size: 14px;
+  font-family: "Nunito",sans-serif;
+  color: #999999;
+  font-weight: 500;
+}
+
+
+.slider .slick-dots{
+  margin: 20px 0px 0px;
+}
+
+.slider .slick-dots li,
+.slider .slick-dots li.slick-active{
+  margin: 0px;
+}
+
+.slider .slick-dots li button::before{
+ border: 1px solid blue;
+ border-radius: 15px;
+ font-size: 0px;
+ height: 12px;
+ margin: 0px 4px;
+ width: 12px;
+ background: white;
+ color: white;
+ opacity: 1;
+}
+
+.slider .slick-dots li.slick-active button::before{
+  background: blue;
+  color: blue;
+  margin: 0px 4px;
 }

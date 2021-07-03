@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet" />
-<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.css" rel="stylesheet" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
@@ -22,6 +22,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.6/pure-min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
@@ -29,6 +31,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.6/base-context-min.min.css"
     />
+
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css"
@@ -41,12 +45,10 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css"
@@ -891,11 +893,11 @@ Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
        </div>
      </section>
      <section class="container" id="portfolio">
-       <header>
+       <header  data-aos="fade-up" data-aos-once="true">
           <h2>Portfolio</h2>
           <p>Cheak our latest Work</p>
         </header>
-       <div class="row">
+       <div class="row"  data-aos="fade-up" data-aos-once="true">
          <div class="owl-item">
            <div class="col-lg-12 portfolio-button justify-content-center">
              <ul align="center">
@@ -906,7 +908,7 @@ Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
              </ul>
            </div>
          </div>
-         <div class="row" id="default-demo">
+         <div class="row" id="default-demo"  data-aos="fade-up" data-aos-once="true">
           <div class="gallery_product col-lg-4 col-md-6 filter graduate">
             <img src="img/portfolio/portfolio-1.jpg" class="img-responsive">
             <div class="portfolio-content">
@@ -1028,12 +1030,109 @@ Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
       </div>
       </div>
    </section>
+   <section class="container test">
+       <header class="test-header">  
+        <!-- data-aos="fade-up" data-aos-once="true" -->
+        
+        <h2>Testimonials</h2>
+        <p>What they are saying about us</p>       
+      </header>
+       <div class="slider">
+         <div class="item item-1">
+           <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+           <i class="bi bi-star-fill"></i>
+          </div>
+          <p>
+            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+          </p>
+          <div class="profile mt-auto">
+            <img src="img/testimonials/testimonials-2.jpg"  alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+          </div>
+       </div>
+         <div class="item item-2">
+           <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+           <i class="bi bi-star-fill"></i>
+          </div>
+          <p>
+            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+          </p>
+          <div class="profile mt-auto">
+            <img src="img/testimonials/testimonials-3.jpg"  alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+          </div>
+       </div>
+         <div class="item item-3">
+           <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+           <i class="bi bi-star-fill"></i>
+          </div>
+          <p>
+            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+          </p>
+          <div class="profile mt-auto">
+            <img src="img/testimonials/testimonials-4.jpg"  alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+          </div>
+       </div>
+         <div class="item item-4">
+           <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+           <i class="bi bi-star-fill"></i>
+          </div>
+          <p>
+            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+          </p>
+          <div class="profile mt-auto">
+            <img src="img/testimonials/testimonials-5.jpg"  alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div>
+       </div>
+         <div class="item item-4">
+           <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+           <i class="bi bi-star-fill"></i>
+          </div>
+          <p>
+            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+          </p>
+          <div class="profile mt-auto">
+            <img src="img/testimonials/testimonials-1.jpg"  alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+          </div>
+       </div>
+     </div>
+   </section>
     <!-- scripts -->
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
