@@ -699,7 +699,8 @@
 .faq-header,
 #portfolio header,
 .test-header,
-.team-header {
+.team-header,
+.clients-header {
   text-align: center;
   padding-bottom: 40px;
 }
@@ -709,7 +710,8 @@
 .faq-header h2,
 #portfolio header h2,
 .test-header h2,
-.team-header h2{
+.team-header h2,
+.clients-header h2{
   font-size: 13px;
   font-family: "Nunito", sans-serif;
   color: #4154f1;
@@ -722,7 +724,8 @@
 .faq-header p,
 #portfolio header p,
 .test-header p,
-.team-header p {
+.team-header p ,
+.clients-header p{
   font-size: 38px;
   font-family: "Opan sans", sans-serif;
   color: #012970;
@@ -1300,10 +1303,11 @@
 }
 
 
-.slick-slide{
+.slider .slick-slide{
   opacity: .4;
 }
-.slick-center{
+
+.slider .slick-center{
   -webkit-transform: scale(1.12);
   -moz-transform: scale(1.12);
   transform: scale(1.12);
@@ -1479,4 +1483,56 @@
   100%{
     right: 10px;
   }
+}
+
+/* slider-2 */
+
+.clients{
+  padding: 60px 0px;
+}
+
+.slick-slide {
+  margin: 0 60px;
+}
+
+.slick-list {
+  margin: 0 -60px;
+}
+
+.slide img{
+  height: auto;
+  width: 116px;
+  background-size: cover;
+}
+
+
+.slider-2 .slick-dots li,
+.slider-2 .slick-dots li.slick-active{
+  margin: 0px;
+}
+
+.slider-2 .slick-dots li button::before{
+ border: 1px solid blue;
+ border-radius: 15px;
+ font-size: 0px;
+ height: 12px;
+ margin: 0px 4px;
+ width: 12px;
+ background: white;
+ color: white;
+ opacity: 1;
+}
+
+.slider-2 .slick-dots li.slick-active button::before{
+  background: blue;
+  color: blue;
+  margin: 0px 4px;
+}
+
+.slider-2 .slick-slide{
+  opacity: .5;
+}
+
+.slider-2 .slick-slide:hover{
+  opacity: 1;
 }

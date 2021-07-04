@@ -20,7 +20,7 @@ $('.slider').slick({
   slidesToScroll: 1,
   responsive: [
       {
-        breakpoint: 800,
+        breakpoint: 1200,
         settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -33,6 +33,42 @@ $('.slider').slick({
           slidesToScroll: 1
           }
       }
+  ]
+});
+$('.slider-2').slick({
+  dots: true,
+  arrows: false,
+  initialSlide: 3,
+  infinite: true,
+  slidesToShow: 6,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  adaptiveHeight: true,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        initialSlide: 2
+      }
+    },
+    
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
   ]
 });
 

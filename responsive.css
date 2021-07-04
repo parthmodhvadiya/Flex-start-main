@@ -46,6 +46,10 @@
   .features-icons-img {
     padding: 24px;
   }
+
+  .slide img{
+    width: 56px;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -165,6 +169,31 @@
     margin: 0px auto;
   }
 
+  .clients{
+    overflow: hidden;
+  }
+
+
+  .slider-2{
+    width: 95%;
+    margin: 0px auto;
+  }
+
+  .slide img{
+    height: auto;
+    width: 114px;
+    background-size: cover;
+
+  }
+ 
+  .slick-slide{
+    margin: 0px 30px;
+  }
+
+  .slick-list{
+    margin: 0px  -30px;
+  }
+  
 }
 @media screen and (max-width: 426px) {
   #about .row {
@@ -250,5 +279,31 @@
     width: 100%;
     margin: 0px auto;
     height: auto;
+  }
+  
+ 
+  .slider-2{
+    width: 95%;
+    margin: 0px auto;
+  }
+
+  .slide img{
+    width: auto;
+    max-width: 173px;
+    min-width: 123px;
+  }
+
+  .slick-slide {
+    margin: 0 25px;
+  }
+  
+  .slick-list {
+    margin: 0 -25px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .slide img{
+    max-width: 123px;
   }
 }
