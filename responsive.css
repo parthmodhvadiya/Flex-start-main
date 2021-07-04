@@ -147,6 +147,24 @@
     height: auto;
     width: 100%;
   }
+
+  .team-container{
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .team-container{
+    margin:  24px auto;
+  }
+
+  .team-img img{
+    width: 100%;
+  }
+  .slider{
+    width: 100%;
+    margin: 0px auto;
+  }
+
 }
 @media screen and (max-width: 426px) {
   #about .row {
@@ -212,7 +230,25 @@
     margin: 0px auto ;
   }
   .gallery_product{
-    
     overflow: hidden !important;
+  }
+
+  .team{
+    overflow: hidden;
+  }
+  
+  .team-container{
+    width: 94%;
+    margin: 24px auto;
+  }
+
+  .team-img{
+    margin: 0px auto;
+  }
+  
+  .team-img img{
+    width: 100%;
+    margin: 0px auto;
+    height: auto;
   }
 }
