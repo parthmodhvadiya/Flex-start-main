@@ -47,13 +47,6 @@ $('.slider-2').slick({
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 6,
-        slidesToScroll: 1
-      }
-    },
-    {
       breakpoint: 900,
       settings: {
         slidesToShow: 4,
