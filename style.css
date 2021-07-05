@@ -256,6 +256,7 @@
 
 #about {
   padding: 60px 0px;
+  overflow: hidden;
 }
 
 .about-container {
