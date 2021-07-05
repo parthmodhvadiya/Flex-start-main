@@ -701,7 +701,8 @@
 .test-header,
 .team-header,
 .clients-header,
-.blog-header{
+.blog-header,
+.contact-header{
   text-align: center;
   padding-bottom: 40px;
 }
@@ -712,9 +713,11 @@
 #portfolio header h2,
 .test-header h2,
 .team-header h2,
-.clients-header h2
-.blog-header h2{
+.clients-header h2,
+.blog-header h2,
+.contact-header h2{
   font-size: 13px;
+  margin: 0px;
   font-family: "Nunito", sans-serif;
   color: #4154f1;
   font-weight: 700;
@@ -726,13 +729,14 @@
 .faq-header p,
 #portfolio header p,
 .test-header p,
-.team-header p ,
+.team-header p,
 .clients-header p,
-.blog-header p{
+.blog-header p,
+.contact-header p{
   font-size: 38px;
   font-family: "Opan sans", sans-serif;
   color: #012970;
-  margin: 10px 0px 0px;
+  margin: 0px 0px 0px;
   font-weight: 700;
 }
 
@@ -1619,3 +1623,82 @@
 .blog-container:hover .blog-img img{
   transform: rotate(6deg) scale(1.2);
 }
+
+.contact{
+  padding: 60px 0px;
+}
+
+.content-container{
+  margin: 24px 0px 0px;
+}
+
+.contact-content{
+  padding: 30px;
+  background: #fafbff;
+}
+
+.contact-content i{
+  font-size: 38px;
+  color: #4154f1;
+}
+
+.contact-content h3{
+  font-size: 20px;
+  font-family: "Nunito",sans-serif;
+  color: #012970;
+  margin: 20px 0px 10px;
+}
+
+.contact-content p{
+  color: #444444;
+  font-size: 14px;
+  font-family: "Opan sans",sans-serif;
+}
+
+.form-container{
+  margin: 24px 0px 0px;
+  background: #fafbff;
+}
+
+.form{
+  padding: 30px;
+  background: #fafbff;
+}
+
+.form-content input{
+  margin: 24px 0px 0px;
+  width: 100%;
+  font-size: 14px;
+  color: #212529;
+  border: 1px solid #ced4da;
+  font-weight: 400;
+  padding: 10px 15px;
+}
+
+.form-content input:focus,
+.form-content textarea:focus{
+ outline:  none;
+ border: 1px solid #4154f1;
+}
+
+.form-content textarea{
+  width: 100%;
+  font-size: 14px;
+  color: #212529;
+  border: 1px solid #ced4da;
+  font-weight: 400;
+  padding: 12px 15px;
+}
+
+.form-content button{
+  padding: 10px 30px;
+  background: #4154f1;
+  color: white;
+  font-size: 16px;
+  font-family: "Opan sans",sans-serif;
+  border-radius: 5px;
+  border: none;
+  transition: 0.4s;
+
+}
+
