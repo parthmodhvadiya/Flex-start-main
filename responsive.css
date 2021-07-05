@@ -266,7 +266,8 @@
     overflow: hidden;
   }
   
-  .team-container{
+  .team-container,
+  .blog-container{
     width: 94%;
     margin: 24px auto;
   }
@@ -299,6 +300,15 @@
   
   .slick-list {
     margin: 0 -25px;
+  }
+
+  .blog{
+  overflow: hidden;
+  }
+
+  .blog-container{
+    width: 93%;
+    margin: 0px auto;
   }
 }
 
