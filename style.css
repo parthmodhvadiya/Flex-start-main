@@ -700,7 +700,8 @@
 #portfolio header,
 .test-header,
 .team-header,
-.clients-header {
+.clients-header,
+.blog-header{
   text-align: center;
   padding-bottom: 40px;
 }
@@ -711,7 +712,8 @@
 #portfolio header h2,
 .test-header h2,
 .team-header h2,
-.clients-header h2{
+.clients-header h2
+.blog-header h2{
   font-size: 13px;
   font-family: "Nunito", sans-serif;
   color: #4154f1;
@@ -725,7 +727,8 @@
 #portfolio header p,
 .test-header p,
 .team-header p ,
-.clients-header p{
+.clients-header p,
+.blog-header p{
   font-size: 38px;
   font-family: "Opan sans", sans-serif;
   color: #012970;
@@ -1535,4 +1538,84 @@
 
 .slider-2 .slick-slide:hover{
   opacity: 1;
+}
+
+/* blog section */
+
+.blog{
+  padding: 60px 0px;
+}
+
+.blog-container{
+  padding: 30px;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+  
+}
+
+.blog-img{
+  margin: -30px -30px 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-img img{
+  height: auto;
+  transition: all 0.5s ease;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-container span{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Opan sans",sans-serif;
+  margin-bottom: 10px;
+  color: rgba(1, 41, 112, 0.6);
+} 
+
+.blog-container h3{
+  font-size: 24px;
+  font-family: "Nunito",sans-serif;
+  color: #012970;
+  font-weight: 700;
+  margin: 0px 0px 15px;
+  transition: 0.3s;
+}
+
+.blog-container a{
+  transition: all 0.3s ease;
+  font-weight: 600;
+  list-style: none;
+  font-size: 16px;
+  transition: 0.3s;
+  text-decoration: none;
+  font-family: "Opan sans", sans-serif;
+}
+
+.blog-container a:hover,
+.blog-container a:hover span{
+  color: rgba(1, 41, 112, 0.6);
+}
+
+.blog-container a span,
+.blog-container a{
+ color: #4154f1;
+}
+
+.blog-container:hover .blog-h3{
+  color: #4154f1;
+}
+
+.blog-container:hover .blog-img img{
+  transform: rotate(6deg) scale(1.2);
 }
